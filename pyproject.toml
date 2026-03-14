@@ -1,0 +1,12 @@
+[project]
+name = "my-custom-hotkey"
+version = "0.1.0"
+description = "Windows 熱鍵工具：Ctrl+Alt+Q 進行中文簡繁轉換"
+requires-python = ">=3.9"
+dependencies = [
+    "keyboard",
+    "pyperclip",
+    "zhconv",
+    "pystray",
+    "pillow",
+]
